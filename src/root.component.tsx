@@ -1,3 +1,8 @@
 export default function Root(props) {
-  return <section>hello</section>;
+  return (
+      <div>
+        <h1>This is the landing page</h1>
+        <section>hello</section>
+      </div>
+  )
 }

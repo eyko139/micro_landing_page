@@ -40,6 +40,7 @@ export default function BasicTabs() {
         >
           <Tab value="/home" label="Home" {...a11yProps(0)} />
           <Tab value="/cool" label="Cool page" {...a11yProps(1)} />
+          <Tab value="/cooler" label="even cooler page" {...a11yProps(1)} />
         </Tabs>
       </Box>
     </Box>
